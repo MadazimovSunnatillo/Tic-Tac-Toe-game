@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "raleway", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #8052ec, #d161ff);
+}
+
+.wrapper {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.wrapper .container {
+  width: 70vmin;
+  height: 70vmin;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vmin;
+}
+.wrapper .button-option {
+  background-color: #fff;
+  width: 22vmin;
+  height: 22vmin;
+  border-radius: 8px;
+  border: none;
+  font-size: 12vmin;
+  color: #8052ec;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.wrapper .restart {
+  margin-top: 1.5em;
+  font-size: 1.3em;
+  padding: 1em;
+  border-radius: 8px;
+  background-color: #0a0027;
+  color: #ffffff;
+  border: none;
+  text-transform: capitalize;
+  display: block;
+  margin: 1.5em auto 0 auto;
+}
+
+.popup {
+  background: linear-gradient(135deg, #8052ec, #d161ff);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  font-size: 12vmin;
+}
+.popup #new-game {
+  font-size: 0.6em;
+  padding: 0.5em 1em;
+  background-color: #0a0027;
+  color: #fff;
+  border-radius: 0.2em;
+  border: none;
+}
+.popup #message {
+  color: #fff;
+  text-align: center;
+  font-size: 1em;
+}
+
+.hide {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
